@@ -1,0 +1,1089 @@
+2020-03-13 18:44:10 [scrapy.utils.log] INFO: Scrapy 1.8.0 started (bot: douban)
+2020-03-13 18:44:10 [scrapy.utils.log] INFO: Versions: lxml 4.5.0.0, libxml2 2.9.5, cssselect 1.1.0, parsel 1.5.2, w3lib 1.21.0, Twisted 19.10.0, Python 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 21:26:53) [MSC v.1916 32 bit (Intel)], pyOpenSSL 19.1.0 (OpenSSL 1.1.1d  10 Sep 2019), cryptography 2.8, Platform Windows-10-10.0.18362-SP0
+2020-03-13 18:44:11 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'douban', 'LOG_FILE': 'logs\\douban\\movies\\8ed3d074651711eab58d24f5aac2ce99.log', 'NEWSPIDER_MODULE': 'douban.spiders', 'SPIDER_MODULES': ['douban.spiders']}
+2020-03-13 18:44:11 [scrapy.extensions.telnet] INFO: Telnet Password: b47830fdd69100c8
+2020-03-13 18:44:11 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2020-03-13 18:44:11 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2020-03-13 18:44:11 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2020-03-13 18:44:11 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2020-03-13 18:44:11 [scrapy.core.engine] INFO: Spider opened
+2020-03-13 18:44:11 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2020-03-13 18:44:11 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6024
+2020-03-13 18:44:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=0> (referer: None)
+2020-03-13 18:44:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=0>
+{'casts': ['肖战', '李沁', '孟美岐', '唐艺昕', '刘端端'],
+ 'directors': ['程小东'],
+ 'rate': '4.7',
+ 'title': '诛仙1'}
+2020-03-13 18:44:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=0>
+{'casts': ['吕艳婷', '囧森瑟夫', '瀚墨', '陈浩', '绿绮'],
+ 'directors': ['饺子'],
+ 'rate': '8.5',
+ 'title': '哪吒之魔童降世'}
+2020-03-13 18:44:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=0>
+{'casts': ['周冬雨', '易烊千玺', '尹昉', '周也', '吴越'],
+ 'directors': ['曾国祥'],
+ 'rate': '8.3',
+ 'title': '少年的你'}
+2020-03-13 18:44:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=0>
+{'casts': ['徐峥', '王传君', '周一围', '谭卓', '章宇'],
+ 'directors': ['文牧野'],
+ 'rate': '9.0',
+ 'title': '我不是药神'}
+2020-03-13 18:44:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=0>
+{'casts': ['屈楚萧', '吴京', '李光洁', '吴孟达', '赵今麦'],
+ 'directors': ['郭帆'],
+ 'rate': '7.9',
+ 'title': '流浪地球'}
+2020-03-13 18:44:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=0>
+{'casts': ['沈腾', '宋芸桦', '张一鸣', '张晨光', '常远'],
+ 'directors': ['闫非', '彭大魔'],
+ 'rate': '6.5',
+ 'title': '西虹市首富'}
+2020-03-13 18:44:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=0>
+{'casts': ['黄渤', '张译', '韩昊霖', '杜江', '葛优'],
+ 'directors': ['陈凯歌', '张一白', '管虎', '薛晓路', '徐峥', '宁浩', '文牧野'],
+ 'rate': '7.8',
+ 'title': '我和我的祖国'}
+2020-03-13 18:44:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=0>
+{'casts': ['张国荣', '张丰毅', '巩俐', '葛优', '英达'],
+ 'directors': ['陈凯歌'],
+ 'rate': '9.6',
+ 'title': '霸王别姬'}
+2020-03-13 18:44:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=0>
+{'casts': ['姜文', '葛优', '周润发', '刘嘉玲', '陈坤'],
+ 'directors': ['姜文'],
+ 'rate': '8.8',
+ 'title': '让子弹飞'}
+2020-03-13 18:44:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=0>
+{'casts': ['周星驰', '吴孟达', '朱茵', '蔡少芬', '蓝洁瑛'],
+ 'directors': ['刘镇伟'],
+ 'rate': '9.2',
+ 'title': '大话西游之大圣娶亲'}
+2020-03-13 18:44:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=0>
+{'casts': ['周星驰', '吴孟达', '罗家英', '蓝洁瑛', '莫文蔚'],
+ 'directors': ['刘镇伟'],
+ 'rate': '9.0',
+ 'title': '大话西游之月光宝盒'}
+2020-03-13 18:44:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=0>
+{'casts': ['张译', '黄景瑜', '海清', '杜江', '蒋璐霞'],
+ 'directors': ['林超贤'],
+ 'rate': '8.3',
+ 'title': '红海行动'}
+2020-03-13 18:44:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=0>
+{'casts': ['张涵予', '欧豪', '杜江', '袁泉', '张天爱'],
+ 'directors': ['刘伟强'],
+ 'rate': '6.7',
+ 'title': '中国机长'}
+2020-03-13 18:44:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=0>
+{'casts': ['王宝强', '刘昊然', '肖央', '刘承羽', '尚语贤'],
+ 'directors': ['陈思诚'],
+ 'rate': '6.7',
+ 'title': '唐人街探案2'}
+2020-03-13 18:44:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=0>
+{'casts': ['黄渤', '舒淇', '王宝强', '张艺兴', '于和伟'],
+ 'directors': ['黄渤'],
+ 'rate': '7.1',
+ 'title': '一出好戏'}
+2020-03-13 18:44:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=0>
+{'casts': ['吴京', '弗兰克·格里罗', '吴刚', '张翰', '卢靖姗'],
+ 'directors': ['吴京'],
+ 'rate': '7.1',
+ 'title': '战狼2'}
+2020-03-13 18:44:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=0>
+{'casts': ['沈腾', '马丽', '尹正', '艾伦', '王智'],
+ 'directors': ['闫非', '彭大魔'],
+ 'rate': '7.6',
+ 'title': '夏洛特烦恼'}
+2020-03-13 18:44:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=0>
+{'casts': ['王宝强', '刘昊然', '佟丽娅', '陈赫', '肖央'],
+ 'directors': ['陈思诚'],
+ 'rate': '7.6',
+ 'title': '唐人街探案'}
+2020-03-13 18:44:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=0>
+{'casts': ['梁朝伟', '白百何', '井柏然', '李宇春', '杨祐宁'],
+ 'directors': ['许诚毅'],
+ 'rate': '5.0',
+ 'title': '捉妖记2'}
+2020-03-13 18:44:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=0>
+{'casts': ['周星驰', '元秋', '元华', '黄圣依', '梁小龙'],
+ 'directors': ['周星驰'],
+ 'rate': '8.5',
+ 'title': '功夫'}
+2020-03-13 18:44:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=20> (referer: https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=0)
+2020-03-13 18:44:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=20>
+{'casts': ['陈建斌', '任素汐', '潘斌龙', '章宇', '王砚辉'],
+ 'directors': ['饶晓志'],
+ 'rate': '8.1',
+ 'title': '无名之辈'}
+2020-03-13 18:44:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=20>
+{'casts': ['沈腾', '黄景瑜', '尹正', '张本煜', '尹昉'],
+ 'directors': ['韩寒'],
+ 'rate': '6.9',
+ 'title': '飞驰人生'}
+2020-03-13 18:44:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=20>
+{'casts': ['徐峥', '袁泉', '郭京飞', '黄景瑜', '贾冰'],
+ 'directors': ['徐峥'],
+ 'rate': '6.0',
+ 'title': '囧妈'}
+2020-03-13 18:44:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=20>
+{'casts': ['邓超', '罗志祥', '张雨绮', '林允', '徐克'],
+ 'directors': ['周星驰'],
+ 'rate': '6.7',
+ 'title': '美人鱼'}
+2020-03-13 18:44:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=20>
+{'casts': ['任素汐', '大力', '刘帅良', '裴魁山', '阿如那'],
+ 'directors': ['周申', '刘露'],
+ 'rate': '8.3',
+ 'title': '驴得水'}
+2020-03-13 18:44:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=20>
+{'casts': ['艾伦', '马丽', '沈腾', '田雨', '宋阳'],
+ 'directors': ['宋阳', '张吃鱼'],
+ 'rate': '6.9',
+ 'title': '羞羞的铁拳'}
+2020-03-13 18:44:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=20>
+{'casts': ['汤姆·哈迪', '米歇尔·威廉姆斯', '里兹·阿迈德', '斯科特·黑兹', '里德·斯科特'],
+ 'directors': ['鲁本·弗雷斯彻'],
+ 'rate': '7.2',
+ 'title': '毒液：致命守护者'}
+2020-03-13 18:44:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=20>
+{'casts': ['黄轩', '苗苗', '钟楚曦', '杨采钰', '李晓峰'],
+ 'directors': ['冯小刚'],
+ 'rate': '7.6',
+ 'title': '芳华'}
+2020-03-13 18:44:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=20>
+{'casts': ['周冬雨', '马思纯', '李程彬', '李萍', '蔡纲'],
+ 'directors': ['曾国祥'],
+ 'rate': '7.6',
+ 'title': '七月与安生'}
+2020-03-13 18:44:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=20>
+{'casts': ['黄轩', '染谷将太', '张雨绮', '秦昊', '张榕容'],
+ 'directors': ['陈凯歌'],
+ 'rate': '6.9',
+ 'title': '妖猫传'}
+2020-03-13 18:44:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=20>
+{'casts': ['张喆', '杨天翔', '唐小喜', '刘紫玲', '张遥函'],
+ 'directors': ['黄家康', '赵霁'],
+ 'rate': '7.9',
+ 'title': '白蛇：缘起'}
+2020-03-13 18:44:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=20>
+{'casts': ['张涵予', '彭于晏', '孙淳', '陈宝国', '冯文娟'],
+ 'directors': ['林超贤'],
+ 'rate': '8.0',
+ 'title': '湄公河行动'}
+2020-03-13 18:44:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=20>
+{'casts': ['任素汐', '吴昱翰', '刘迅', '汤敏', '赵海燕'],
+ 'directors': ['周申', '刘露'],
+ 'rate': '7.4',
+ 'title': '半个喜剧'}
+2020-03-13 18:44:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=20>
+{'casts': ['周润发', '郭富城', '张静初', '冯文娟', '廖启智'],
+ 'directors': ['庄文强'],
+ 'rate': '8.1',
+ 'title': '无双'}
+2020-03-13 18:44:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=20>
+{'casts': ['小罗伯特·唐尼', '盖·皮尔斯', '格温妮斯·帕特洛', '本·金斯利', '唐·钱德尔'],
+ 'directors': ['沙恩·布莱克'],
+ 'rate': '7.8',
+ 'title': '钢铁侠3'}
+2020-03-13 18:44:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=20>
+{'casts': ['黄渤', '沈腾', '汤姆·派福瑞', '马修·莫里森', '徐峥'],
+ 'directors': ['宁浩'],
+ 'rate': '6.4',
+ 'title': '疯狂的外星人'}
+2020-03-13 18:44:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=20>
+{'casts': ['冯小刚', '许晴', '张涵予', '刘桦', '李易峰'],
+ 'directors': ['管虎'],
+ 'rate': '7.7',
+ 'title': '老炮儿'}
+2020-03-13 18:44:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=20>
+{'casts': ['尊龙', '陈冲', '邬君梅', '彼得·奥图尔', '英若诚'],
+ 'directors': ['贝纳尔多·贝托鲁奇'],
+ 'rate': '9.2',
+ 'title': '末代皇帝'}
+2020-03-13 18:44:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=20>
+{'casts': ['季冠霖', '苏尚卿', '许魏洲', '金士杰', '杨婷'],
+ 'directors': ['梁旋', '张春'],
+ 'rate': '6.8',
+ 'title': '大鱼海棠'}
+2020-03-13 18:44:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=20>
+{'casts': ['章子怡', '黄晓明', '张震', '王力宏', '陈楚生'],
+ 'directors': ['李芳芳'],
+ 'rate': '7.6',
+ 'title': '无问西东'}
+2020-03-13 18:44:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=40> (referer: https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=20)
+2020-03-13 18:44:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=40>
+{'casts': ['徐峥', '王宝强', '黄渤', '陶虹', '谢楠'],
+ 'directors': ['徐峥'],
+ 'rate': '7.4',
+ 'title': '人再囧途之泰囧'}
+2020-03-13 18:44:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=40>
+{'casts': ['李易峰', '迈克尔·道格拉斯', '周冬雨', '曹炳琨', '王戈'],
+ 'directors': ['韩延'],
+ 'rate': '7.2',
+ 'title': '动物世界'}
+2020-03-13 18:44:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=40>
+{'casts': ['白百何', '井柏然', '姜武', '金燕玲', '钟汉良'],
+ 'directors': ['许诚毅'],
+ 'rate': '6.7',
+ 'title': '捉妖记'}
+2020-03-13 18:44:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=40>
+{'casts': ['肖央', '谭卓', '陈冲', '姜皓文', '秦沛'],
+ 'directors': ['柯汶利'],
+ 'rate': '7.7',
+ 'title': '误杀'}
+2020-03-13 18:44:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=40>
+{'casts': ['彭于晏', '廖凡', '姜文', '周韵', '许晴'],
+ 'directors': ['姜文'],
+ 'rate': '7.0',
+ 'title': '邪不压正'}
+2020-03-13 18:44:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=40>
+{'casts': ['邓超', '彭于晏', '赵丽颖', '董子健', '金士杰'],
+ 'directors': ['韩寒'],
+ 'rate': '6.8',
+ 'title': '乘风破浪'}
+2020-03-13 18:44:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=40>
+{'casts': ['白百何', '吴彦祖', '李媛', '刘芮麟', '程伊'],
+ 'directors': ['韩延'],
+ 'rate': '7.4',
+ 'title': '滚蛋吧！肿瘤君'}
+2020-03-13 18:44:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=40>
+{'casts': ['郭涛', '刘桦', '连晋', '黄渤', '徐峥'],
+ 'directors': ['宁浩'],
+ 'rate': '8.4',
+ 'title': '疯狂的石头'}
+2020-03-13 18:44:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=40>
+{'casts': ['雷佳音', '佟丽娅', '张衣', '于和伟', '王正佳'],
+ 'directors': ['苏伦'],
+ 'rate': '6.8',
+ 'title': '超时空同居'}
+2020-03-13 18:44:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=40>
+{'casts': ['于和伟', '吴磊', '张子枫', '钟汉良', '杨子姗'],
+ 'directors': ['杨子'],
+ 'rate': '6.0',
+ 'title': '宠爱'}
+2020-03-13 18:44:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=40>
+{'casts': ['邓超', '白宇', '任素汐', '王西', '孙浠伦'],
+ 'directors': ['邓超', '俞白眉'],
+ 'rate': '6.3',
+ 'title': '银河补习班'}
+2020-03-13 18:44:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=40>
+{'casts': ['张磊', '林子杰', '吴文伦', '童自荣', '刘九容'],
+ 'directors': ['田晓鹏'],
+ 'rate': '8.3',
+ 'title': '西游记之大圣归来'}
+2020-03-13 18:44:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=40>
+{'casts': ['张子枫', '彭昱畅', '赵今麦', '孙泽源', '周翊然'],
+ 'directors': ['郑芬芬'],
+ 'rate': '6.9',
+ 'title': '快把我哥带走'}
+2020-03-13 18:44:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=40>
+{'casts': ['山新', '郝祥海', '刘明月'],
+ 'directors': ['木头', '皇贞季'],
+ 'rate': '8.2',
+ 'title': '罗小黑战记'}
+2020-03-13 18:44:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=40>
+{'casts': ['于谦', '汤梦佳', '王广源', '秦鸣悦', '徐子力'],
+ 'directors': ['张栾'],
+ 'rate': '6.7',
+ 'title': '老师·好'}
+2020-03-13 18:44:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=40>
+{'casts': ['陈坤', '黄渤', '舒淇', '杨颖', '夏雨'],
+ 'directors': ['乌尔善'],
+ 'rate': '7.4',
+ 'title': '寻龙诀'}
+2020-03-13 18:44:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=40>
+{'casts': ['井柏然', '周冬雨', '田壮壮', '曲哲明', '刘启恒'],
+ 'directors': ['刘若英'],
+ 'rate': '5.9',
+ 'title': '后来的我们'}
+2020-03-13 18:44:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=40>
+{'casts': ['胡歌', '桂纶镁', '廖凡', '万茜', '奇道'],
+ 'directors': ['刁亦男'],
+ 'rate': '7.4',
+ 'title': '南方车站的聚会'}
+2020-03-13 18:44:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=40>
+{'casts': ['黄晓明', '杜江', '谭卓', '杨紫', '欧豪'],
+ 'directors': ['陈国辉'],
+ 'rate': '6.5',
+ 'title': '烈火英雄'}
+2020-03-13 18:44:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=40>
+{'casts': ['黄晓明', '邓超', '佟大为', '杜鹃', '王真儿'],
+ 'directors': ['陈可辛'],
+ 'rate': '7.6',
+ 'title': '中国合伙人'}
+2020-03-13 18:44:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=60> (referer: https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=40)
+2020-03-13 18:44:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=60>
+{'casts': ['张雪迎', '果靖霖', '智一桐', '代旭', '黄诗佳'],
+ 'directors': ['曹保平'],
+ 'rate': '8.2',
+ 'title': '狗十三'}
+2020-03-13 18:44:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=60>
+{'casts': ['梁朝伟', '汤唯', '陈冲', '王力宏', '庹宗华'],
+ 'directors': ['李安'],
+ 'rate': '8.4',
+ 'title': '色，戒'}
+2020-03-13 18:44:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=60>
+{'casts': ['徐峥', '王宝强', '李曼', '李小璐', '左小青'],
+ 'directors': ['叶伟民'],
+ 'rate': '7.7',
+ 'title': '人在囧途'}
+2020-03-13 18:44:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=60>
+{'casts': ['韩庚', '郑恺', '于文文', '曾梦雪', '罗米'],
+ 'directors': ['田羽生'],
+ 'rate': '5.5',
+ 'title': '前任3：再见前任'}
+2020-03-13 18:44:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=60>
+{'casts': ['邓超', '段奕宏', '郭涛', '王珞丹', '吕颂贤'],
+ 'directors': ['曹保平'],
+ 'rate': '8.1',
+ 'title': '烈日灼心'}
+2020-03-13 18:44:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=60>
+{'casts': ['大鹏', '乔杉', '古力娜扎', '李鸿其', '韩童生'],
+ 'directors': ['大鹏'],
+ 'rate': '6.6',
+ 'title': '缝纫机乐队'}
+2020-03-13 18:44:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=60>
+{'casts': ['葛优', '巩俐', '姜武', '牛犇', '郭涛'],
+ 'directors': ['张艺谋'],
+ 'rate': '9.2',
+ 'title': '活着'}
+2020-03-13 18:44:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=60>
+{'casts': ['吴京', '章子怡', '井柏然', '张译', '胡歌'],
+ 'directors': ['李仁港'],
+ 'rate': '6.1',
+ 'title': '攀登者'}
+2020-03-13 18:44:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=60>
+{'casts': ['邓超', '白百何', '杨洋', '张天爱', '岳云鹏'],
+ 'directors': ['张一白'],
+ 'rate': '5.2',
+ 'title': '从你的全世界路过'}
+2020-03-13 18:44:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=60>
+{'casts': ['邓超', '孙俪', '郑恺', '王千源', '王景春'],
+ 'directors': ['张艺谋'],
+ 'rate': '7.2',
+ 'title': '影'}
+2020-03-13 18:44:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=60>
+{'casts': ['杨子姗', '归亚蕾', '陈柏霖', '鹿晗', '王德顺'],
+ 'directors': ['陈正道'],
+ 'rate': '7.1',
+ 'title': '重返20岁'}
+2020-03-13 18:44:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=60>
+{'casts': ['艾德·斯克林', '帕特里克·威尔森', '伍迪·哈里森', '卢克·伊万斯', '丹尼斯·奎德'],
+ 'directors': ['罗兰·艾默里奇'],
+ 'rate': '7.7',
+ 'title': '决战中途岛'}
+2020-03-13 18:44:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=60>
+{'casts': ['周星驰', '徐娇', '张雨绮', '林子聪', '冯勉恒'],
+ 'directors': ['周星驰'],
+ 'rate': '6.8',
+ 'title': '长江七号'}
+2020-03-13 18:44:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=60>
+{'casts': ['赵英博', '任敏', '辛云来', '章若楠', '朱丹妮'],
+ 'directors': ['落落'],
+ 'rate': '5.9',
+ 'title': '悲伤逆流成河'}
+2020-03-13 18:44:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=60>
+{'casts': ['文章', '舒淇', '黄渤', '罗志祥', '李尚正'],
+ 'directors': ['周星驰', '郭子健'],
+ 'rate': '7.1',
+ 'title': '西游降魔篇'}
+2020-03-13 18:44:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=60>
+{'casts': ['王俊凯', '迪丽热巴', '董子健', '李鸿其', '董李无忧'],
+ 'directors': ['韩杰'],
+ 'rate': '5.0',
+ 'title': '解忧杂货店'}
+2020-03-13 18:44:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=60>
+{'casts': ['杰克·布莱克', '布莱恩·科兰斯顿', '达斯汀·霍夫曼', '安吉丽娜·朱莉', 'J·K·西蒙斯'],
+ 'directors': ['吕寅荣', '亚历山德罗·卡罗尼'],
+ 'rate': '7.7',
+ 'title': '功夫熊猫3'}
+2020-03-13 18:44:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=60>
+{'casts': ['陈都灵', '欧豪', '杨洋', '马思纯', '段博文'],
+ 'directors': ['苏有朋'],
+ 'rate': '5.5',
+ 'title': '左耳'}
+2020-03-13 18:44:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=60>
+{'casts': ['王凯', '张鲁一', '林心如', '叶祖新', '丁冠森'],
+ 'directors': ['苏有朋'],
+ 'rate': '6.3',
+ 'title': '嫌疑人X的献身'}
+2020-03-13 18:44:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=60>
+{'casts': ['冯绍峰', '陈柏霖', '钟汉良', '王珞丹', '袁泉'],
+ 'directors': ['韩寒'],
+ 'rate': '7.1',
+ 'title': '后会无期'}
+2020-03-13 18:44:14 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=80> (referer: https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=60)
+2020-03-13 18:44:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=80>
+{'casts': ['吴京', '余男', '斯科特·阿金斯', '凯文·李', '倪大红'],
+ 'directors': ['吴京'],
+ 'rate': '6.9',
+ 'title': '战狼'}
+2020-03-13 18:44:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=80>
+{'casts': ['黄才伦', '艾伦', '宋阳', '卢靖姗', '沈腾'],
+ 'directors': ['吴昱翰'],
+ 'rate': '4.6',
+ 'title': '李茶的姑妈'}
+2020-03-13 18:44:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=80>
+{'casts': ['徐峥', '赵薇', '包贝尔', '杜鹃', '葛民辉'],
+ 'directors': ['徐峥', '阮惟新'],
+ 'rate': '5.7',
+ 'title': '港囧'}
+2020-03-13 18:44:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=80>
+{'casts': ['汤唯', '吴秀波', '海清', '宋美曼', '宋美慧'],
+ 'directors': ['薛晓路'],
+ 'rate': '7.3',
+ 'title': '北京遇上西雅图'}
+2020-03-13 18:44:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=80>
+{'casts': ['范·迪塞尔', '保罗·沃克', '杰森·斯坦森', '米歇尔·罗德里格兹', '乔丹娜·布鲁斯特'],
+ 'directors': ['温子仁'],
+ 'rate': '8.3',
+ 'title': '速度与激情7'}
+2020-03-13 18:44:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=80>
+{'casts': ['黄渤', '徐峥', '袁泉', '周冬雨', '陶慧'],
+ 'directors': ['宁浩'],
+ 'rate': '7.1',
+ 'title': '心花路放'}
+2020-03-13 18:44:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=80>
+{'casts': ['王景春', '咏梅', '齐溪', '王源', '杜江'],
+ 'directors': ['王小帅'],
+ 'rate': '8.0',
+ 'title': '地久天长'}
+2020-03-13 18:44:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=80>
+{'casts': ['克里斯蒂安·贝尔', '倪妮', '张歆怡', '黄天元', '韩熙庭'],
+ 'directors': ['张艺谋'],
+ 'rate': '8.1',
+ 'title': '金陵十三钗'}
+2020-03-13 18:44:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=80>
+{'casts': ['大鹏', '柳岩', '张子贤', '张邵勃 ', '刘刚'],
+ 'directors': ['申奥'],
+ 'rate': '6.6',
+ 'title': '受益人'}
+2020-03-13 18:44:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=80>
+{'casts': ['王宝强', '鄂靖文', '张全蛋', '景如洋', '张琪'],
+ 'directors': ['周星驰', '邱礼涛', '肖鹤', '黄骁鹏'],
+ 'rate': '5.7',
+ 'title': '新喜剧之王'}
+2020-03-13 18:44:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=80>
+{'casts': ['金城武', '周冬雨', '孙艺洲', '奚梦瑶', '杨祐宁'],
+ 'directors': ['许宏宇'],
+ 'rate': '6.8',
+ 'title': '喜欢你'}
+2020-03-13 18:44:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=80>
+{'casts': ['杨幂', '柯震东', '郭采洁', '郭碧婷', '谢依霖'],
+ 'directors': ['郭敬明'],
+ 'rate': '4.8',
+ 'title': '小时代'}
+2020-03-13 18:44:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=80>
+{'casts': ['赵薇', '黄渤', '佟大为', '郝蕾', '张译'],
+ 'directors': ['陈可辛'],
+ 'rate': '8.4',
+ 'title': '亲爱的'}
+2020-03-13 18:44:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=80>
+{'casts': ['徐璐', '彭昱畅', '刘泳希', '鲁照华', '韩忠羽'],
+ 'directors': ['王冉'],
+ 'rate': '7.3',
+ 'title': '闪光少女'}
+2020-03-13 18:44:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=80>
+{'casts': ['刘德华', '古天乐', '苗侨伟', '林嘉欣', '周秀娜'],
+ 'directors': ['邱礼涛'],
+ 'rate': '6.0',
+ 'title': '扫毒2天地对决'}
+2020-03-13 18:44:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=80>
+{'casts': ['邱岳峰', '富润生', '毕克', '尚华', '于鼎'],
+ 'directors': ['万籁鸣', '唐澄'],
+ 'rate': '9.3',
+ 'title': '大闹天宫'}
+2020-03-13 18:44:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=80>
+{'casts': ['汤唯', '吴秀波', '惠英红', '秦沛', '吴彦姝'],
+ 'directors': ['薛晓路'],
+ 'rate': '6.4',
+ 'title': '北京遇上西雅图之不二情书'}
+2020-03-13 18:44:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=80>
+{'casts': ['王大陆', '张榕容', '米拉·乔沃维奇', '许魏洲', '刘美彤'],
+ 'directors': ['袁锦麟'],
+ 'rate': '3.6',
+ 'title': '素人特工'}
+2020-03-13 18:44:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=80>
+{'casts': ['白百何', '文章', '张嘉译', '王耀庆', '张子萱'],
+ 'directors': ['滕华涛'],
+ 'rate': '7.2',
+ 'title': '失恋33天'}
+2020-03-13 18:44:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=80>
+{'casts': ['海莉·斯坦菲尔德', '小豪尔赫·兰登伯格', '约翰·塞纳', '杰森·德鲁克', '帕梅拉·阿德龙'],
+ 'directors': ['特拉维斯·奈特'],
+ 'rate': '7.0',
+ 'title': '大黄蜂'}
+2020-03-13 18:44:14 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=100> (referer: https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=80)
+2020-03-13 18:44:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=100>
+{'casts': ['威尔·史密斯', '玛丽·伊丽莎白·温斯特德', '克里夫·欧文', '本尼迪克特·王', '道格拉斯·霍奇斯'],
+ 'directors': ['李安'],
+ 'rate': '6.9',
+ 'title': '双子杀手'}
+2020-03-13 18:44:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=100>
+{'casts': ['彭于晏', '倪妮', '郑恺', '魏晨', '张子萱'],
+ 'directors': ['张一白'],
+ 'rate': '5.5',
+ 'title': '匆匆那年'}
+2020-03-13 18:44:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=100>
+{'casts': ['大鹏', '袁姗姗', '柳岩', '吴君如', '曾志伟'],
+ 'directors': ['大鹏'],
+ 'rate': '5.8',
+ 'title': '煎饼侠'}
+2020-03-13 18:44:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=100>
+{'casts': ['佟大为', '马丽', '霍思燕', '乔杉', '田雨'],
+ 'directors': ['于淼'],
+ 'rate': '5.8',
+ 'title': '来电狂响'}
+2020-03-13 18:44:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=100>
+{'casts': ['黄渤', '段奕宏', '徐静蕾', '杨子姗', '梁杰理'],
+ 'directors': ['陈正道'],
+ 'rate': '7.1',
+ 'title': '记忆大师'}
+2020-03-13 18:44:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=100>
+{'casts': ['邓超', '杨幂', '古力娜扎', '栾元晖', '秦越'],
+ 'directors': ['俞白眉', '邓超'],
+ 'rate': '5.0',
+ 'title': '分手大师'}
+2020-03-13 18:44:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=100>
+{'casts': ['周润发', '杨紫琼', '章子怡', '张震', '郎雄'],
+ 'directors': ['李安'],
+ 'rate': '8.2',
+ 'title': '卧虎藏龙'}
+2020-03-13 18:44:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=100>
+{'casts': ['杨幂', '郭采洁', '陈学冬', '郭碧婷', '谢依霖'],
+ 'directors': ['郭敬明'],
+ 'rate': '4.8',
+ 'title': '小时代4：灵魂尽头'}
+2020-03-13 18:44:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=100>
+{'casts': ['马克·沃尔伯格', '伊莎贝拉·莫奈', '劳拉·哈德克', '安东尼·霍普金斯', '乔什·杜哈明'],
+ 'directors': ['迈克尔·贝'],
+ 'rate': '4.9',
+ 'title': '变形金刚5：最后的骑士'}
+2020-03-13 18:44:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=100>
+{'casts': ['吴君如', '任达华', '钟绍图', '李治廷', '蔡颖恩'],
+ 'directors': ['罗启锐'],
+ 'rate': '8.7',
+ 'title': '岁月神偷'}
+2020-03-13 18:44:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=100>
+{'casts': ['丹尼斯·奎德', '凯瑟琳·普雷斯科特', '刘宪华', '玛格·海根柏格', '贝蒂·吉尔平'],
+ 'directors': ['盖尔·曼库索'],
+ 'rate': '6.9',
+ 'title': '一条狗的使命2'}
+2020-03-13 18:44:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=100>
+{'casts': ['黄渤', '王珞丹', '谭卓', '白客', '黄璐'],
+ 'directors': ['董润年'],
+ 'rate': '7.0',
+ 'title': '被光抓走的人'}
+2020-03-13 18:44:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=100>
+{'casts': ['汤姆·克鲁斯', '亨利·卡维尔', '文·瑞姆斯', '西蒙·佩吉', '丽贝卡·弗格森'],
+ 'directors': ['克里斯托弗·麦奎里'],
+ 'rate': '8.1',
+ 'title': '碟中谍6：全面瓦解'}
+2020-03-13 18:44:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=100>
+{'casts': ['冯绍峰', '刘亦菲', '李光洁', '郭京飞', '焦俊艳'],
+ 'directors': ['肖洋'],
+ 'rate': '5.5',
+ 'title': '二代妖精之今生有幸'}
+2020-03-13 18:44:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=100>
+{'casts': ['成龙', '古天乐', '蔡志强', '许冠文', '蔡卓妍'],
+ 'directors': ['陈木胜'],
+ 'rate': '7.3',
+ 'title': '宝贝计划'}
+2020-03-13 18:44:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=100>
+{'casts': ['盖尔·加朵', '克里斯·派恩', '康妮·尼尔森', '罗宾·怀特', '丹尼·赫斯顿'],
+ 'directors': ['派蒂·杰金斯'],
+ 'rate': '7.1',
+ 'title': '神奇女侠'}
+2020-03-13 18:44:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=100>
+{'casts': ['甄子丹', '周迅', '陈坤', '赵薇', '孙俪'],
+ 'directors': ['陈嘉上', '钱永强'],
+ 'rate': '6.6',
+ 'title': '画皮'}
+2020-03-13 18:44:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=100>
+{'casts': ['杨幂', '鹿晗', '王景春', '朱亚文', '刘芮麟'],
+ 'directors': ['安相勋'],
+ 'rate': '6.2',
+ 'title': '我是证人'}
+2020-03-13 18:44:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=100>
+{'casts': ['杨幂', '柯震东', '郭采洁', '陈学冬', '郭碧婷'],
+ 'directors': ['郭敬明'],
+ 'rate': '4.5',
+ 'title': '小时代3：刺金时代'}
+2020-03-13 18:44:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=100>
+{'casts': ['刘德华', '刘若英', '王宝强', '李冰冰', '葛优'],
+ 'directors': ['冯小刚'],
+ 'rate': '7.9',
+ 'title': '天下无贼'}
+2020-03-13 18:44:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=120> (referer: https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=100)
+2020-03-13 18:44:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=120>
+{'casts': ['彭昱畅', '王大陆', '魏大勋', '曾梦雪', '贾冰'],
+ 'directors': ['田羽生'],
+ 'rate': '5.1',
+ 'title': '小小的愿望'}
+2020-03-13 18:44:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=120>
+{'casts': ['陈赫', '袁弘', '娄艺潇', '邓家佳', '孙艺洲'],
+ 'directors': ['韦正'],
+ 'rate': '3.2',
+ 'title': '爱情公寓'}
+2020-03-13 18:44:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=120>
+{'casts': ['杨子姗', '赵又廷', '韩庚', '江疏影', '刘雅瑟'],
+ 'directors': ['赵薇'],
+ 'rate': '6.6',
+ 'title': '致我们终将逝去的青春'}
+2020-03-13 18:44:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=120>
+{'casts': ['吴亦凡', '刘亦菲', '金世佳', '李沁', '李梦'],
+ 'directors': ['周拓如'],
+ 'rate': '4.2',
+ 'title': '致青春·原来你还在这里'}
+2020-03-13 18:44:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=120>
+{'casts': ['黄轩', '杨采钰', '徐帆', '莉迪亚·佩克汉', '赵淑珍'],
+ 'directors': ['冯小刚'],
+ 'rate': '6.4',
+ 'title': '只有芸知道'}
+2020-03-13 18:44:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=120>
+{'casts': ['徐帆', '张静初', '李晨', '陈道明', '张子枫'],
+ 'directors': ['冯小刚'],
+ 'rate': '7.7',
+ 'title': '唐山大地震'}
+2020-03-13 18:44:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=120>
+{'casts': ['张曼玉', '林青霞', '梁家辉', '甄子丹', '熊欣欣'],
+ 'directors': ['李惠民', '姜明海'],
+ 'rate': '8.6',
+ 'title': '新龙门客栈'}
+2020-03-13 18:44:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=120>
+{'casts': ['梁朝伟', '章子怡', '张震', '宋慧乔', '赵本山'],
+ 'directors': ['王家卫'],
+ 'rate': '8.0',
+ 'title': '一代宗师'}
+2020-03-13 18:44:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=120>
+{'casts': ['邓超', '孙俪', '代乐乐', '梁超', '杨新鸣'],
+ 'directors': ['俞白眉', '邓超'],
+ 'rate': '4.2',
+ 'title': '恶棍天使'}
+2020-03-13 18:44:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=120>
+{'casts': ['张家辉', '古天乐', '吴镇宇', '姜珮瑶', '张亦驰'],
+ 'directors': ['文伟鸿'],
+ 'rate': '6.3',
+ 'title': '使徒行者2：谍影行动'}
+2020-03-13 18:44:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=120>
+{'casts': ['肖战', '朱一龙', '李现', '张艺兴', '迪丽热巴'],
+ 'directors': [],
+ 'rate': '6.3',
+ 'title': '梦圆东方2020东方卫视跨年盛典'}
+2020-03-13 18:44:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=120>
+{'casts': ['赵又廷', '冯绍峰', '林更新', '阮经天', '马思纯'],
+ 'directors': ['徐克'],
+ 'rate': '6.1',
+ 'title': '狄仁杰之四大天王'}
+2020-03-13 18:44:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=120>
+{'casts': ['姜文', '香川照之', '袁丁', '姜宏波', '丛志军'],
+ 'directors': ['姜文'],
+ 'rate': '9.2',
+ 'title': '鬼子来了'}
+2020-03-13 18:44:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=120>
+{'casts': ['陈飞宇', '何蓝逗', '惠英红', '陶慧敏', '汪苏泷'],
+ 'directors': ['章笛沙'],
+ 'rate': '5.4',
+ 'title': '最好的我们'}
+2020-03-13 18:44:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=120>
+{'casts': ['克里斯·帕拉特', '布莱丝·达拉斯·霍华德', '文森特·多诺费奥', '泰·辛普金斯', '尼克·罗宾森'],
+ 'directors': ['科林·特雷沃罗'],
+ 'rate': '7.7',
+ 'title': '侏罗纪世界'}
+2020-03-13 18:44:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=120>
+{'casts': ['夏雨', '宁静', '陶虹', '耿乐', '斯琴高娃'],
+ 'directors': ['姜文'],
+ 'rate': '8.8',
+ 'title': '阳光灿烂的日子'}
+2020-03-13 18:44:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=120>
+{'casts': ['陶泽如', '李岷城', '嵇波', '胡先煦', '郑伟'],
+ 'directors': ['吴天明'],
+ 'rate': '8.2',
+ 'title': '百鸟朝凤'}
+2020-03-13 18:44:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=120>
+{'casts': ['张震', '杨幂', '张译', '雷佳音', '辛芷蕾'],
+ 'directors': ['路阳'],
+ 'rate': '7.2',
+ 'title': '绣春刀II：修罗战场'}
+2020-03-13 18:44:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=120>
+{'casts': ['彭于晏', '倪妮', '余文乐', '俞飞鸿', '欧豪'],
+ 'directors': ['郭子健'],
+ 'rate': '5.1',
+ 'title': '悟空传'}
+2020-03-13 18:44:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=120>
+{'casts': ['杨幂', '柯震东', '郭采洁', '凤小岳', '郭碧婷'],
+ 'directors': ['郭敬明'],
+ 'rate': '4.9',
+ 'title': '小时代2：青木时代'}
+2020-03-13 18:44:16 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=140> (referer: https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=120)
+2020-03-13 18:44:16 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=140>
+{'casts': ['成龙', '权相宇', '廖凡', '姚星彤', '张蓝心'],
+ 'directors': ['成龙'],
+ 'rate': '6.7',
+ 'title': '十二生肖'}
+2020-03-13 18:44:16 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=140>
+{'casts': ['邓超', '阮经天', '刘诗诗', '文淇', '林嘉欣'],
+ 'directors': ['徐纪周'],
+ 'rate': '5.9',
+ 'title': '心理罪之城市之光'}
+2020-03-13 18:44:16 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=140>
+{'casts': ['徐峥', '黄渤', '余男', '多布杰', '王双宝'],
+ 'directors': ['宁浩'],
+ 'rate': '8.2',
+ 'title': '无人区'}
+2020-03-13 18:44:16 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=140>
+{'casts': ['周星驰', '赵薇', '吴孟达', '谢贤', '莫文蔚'],
+ 'directors': ['周星驰'],
+ 'rate': '7.8',
+ 'title': '少林足球'}
+2020-03-13 18:44:16 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=140>
+{'casts': ['廖凡', '李易峰', '万茜', '李纯', '张国柱'],
+ 'directors': ['谢东燊'],
+ 'rate': '4.9',
+ 'title': '心理罪'}
+2020-03-13 18:44:16 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=140>
+{'casts': ['刘亦菲', '杨洋', '罗晋', '严屹宽', '李纯'],
+ 'directors': ['赵小丁', '安东尼·拉默里纳拉'],
+ 'rate': '3.9',
+ 'title': '三生三世十里桃花'}
+2020-03-13 18:44:16 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=140>
+{'casts': ['甄子丹', '刘德华', '姜皓文', '郑则仕', '刘浩龙'],
+ 'directors': ['王晶', '关智耀'],
+ 'rate': '7.2',
+ 'title': '追龙'}
+2020-03-13 18:44:16 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=140>
+{'casts': ['陈坤', '白百何', '秦昊', '喻恩泰', '王彦霖'],
+ 'directors': ['杨庆'],
+ 'rate': '7.2',
+ 'title': '火锅英雄'}
+2020-03-13 18:44:16 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=140>
+{'casts': ['吴君如', '沈腾', '岳云鹏', '张译', 'Papi酱'],
+ 'directors': ['吴君如'],
+ 'rate': '4.2',
+ 'title': '妖铃铃'}
+2020-03-13 18:44:16 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=140>
+{'casts': ['宋洋', '姜武', '袁文康', '谭卓', '王梓尘'],
+ 'directors': ['忻钰坤'],
+ 'rate': '8.3',
+ 'title': '暴裂无声'}
+2020-03-13 18:44:16 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=140>
+{'casts': ['周冬雨', '林更新', '隋凯', '王啸坤', '龚格尔'],
+ 'directors': ['郭帆'],
+ 'rate': '5.9',
+ 'title': '同桌的妳'}
+2020-03-13 18:44:16 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=140>
+{'casts': ['李易峰', '张慧雯', '蒋劲夫', '魏大勋', '杜天皓'],
+ 'directors': ['何炅'],
+ 'rate': '4.3',
+ 'title': '栀子花开'}
+2020-03-13 18:44:16 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=140>
+{'casts': ['周润发', '刘德华', '张家辉', '张学友', '余文乐'],
+ 'directors': ['王晶', '刘伟强'],
+ 'rate': '4.2',
+ 'title': '澳门风云3'}
+2020-03-13 18:44:16 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=140>
+{'casts': ['黄尧', '孙阳', '汤加文', '倪虹洁', '江美仪'],
+ 'directors': ['白雪'],
+ 'rate': '7.7',
+ 'title': '过春天'}
+2020-03-13 18:44:16 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=140>
+{'casts': ['莱昂纳多·迪卡普里奥', '布拉德·皮特', '玛格特·罗比', '埃米尔·赫斯基', '玛格丽特·库里'],
+ 'directors': ['昆汀·塔伦蒂诺'],
+ 'rate': '7.3',
+ 'title': '好莱坞往事'}
+2020-03-13 18:44:16 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=140>
+{'casts': ['张震', '刘诗诗', '王千源', '李东学', '聂远'],
+ 'directors': ['路阳'],
+ 'rate': '7.6',
+ 'title': '绣春刀'}
+2020-03-13 18:44:16 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=140>
+{'casts': ['甄子丹', '任达华', '熊黛林', '池内博之', '林家栋'],
+ 'directors': ['叶伟信'],
+ 'rate': '7.6',
+ 'title': '叶问'}
+2020-03-13 18:44:16 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=140>
+{'casts': ['霍卫民', '王笑天', '罗芸', '杨瑜珍', '孙黎'],
+ 'directors': ['忻钰坤'],
+ 'rate': '8.7',
+ 'title': '心迷宫'}
+2020-03-13 18:44:16 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=140>
+{'casts': ['王千源', '包贝尔', '王迅', '王砚辉', '屈菁菁'],
+ 'directors': ['五百'],
+ 'rate': '6.5',
+ 'title': '“大”人物'}
+2020-03-13 18:44:16 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=140>
+{'casts': ['徐峥', '莫文蔚', '胡静', '吕中', '王耀庆'],
+ 'directors': ['陈正道'],
+ 'rate': '7.6',
+ 'title': '催眠大师'}
+2020-03-13 18:44:16 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=160> (referer: https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=140)
+2020-03-13 18:44:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=160>
+{'casts': ['丁建华', '毕克', '苏秀', '程晓桦', '施融'],
+ 'directors': ['王树忱', '钱运达', '苏秀', '张欣', '刘风'],
+ 'rate': '9.2',
+ 'title': '天书奇谭'}
+2020-03-13 18:44:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=160>
+{'casts': ['肖战', '杨紫', '张一山', '朱正廷', '王凯'],
+ 'directors': [],
+ 'rate': '5.5',
+ 'title': '2020年北京卫视春节联欢晚会'}
+2020-03-13 18:44:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=160>
+{'casts': ['白敬亭', '郭姝彤', '李宏毅', '王鹤润', '丁冠森'],
+ 'directors': ['姚婷婷'],
+ 'rate': '6.6',
+ 'title': '谁的青春不迷茫'}
+2020-03-13 18:44:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=160>
+{'casts': ['布拉德·皮特', '汤米·李·琼斯', '丽芙·泰勒', '鲁丝·内伽', '唐纳德·萨瑟兰'],
+ 'directors': ['詹姆斯·格雷'],
+ 'rate': '6.8',
+ 'title': '星际探索'}
+2020-03-13 18:44:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=160>
+{'casts': ['姚晨', '马伊琍', '袁文康', '吴昊宸', '王梓尘'],
+ 'directors': ['吕乐'],
+ 'rate': '7.4',
+ 'title': '找到你'}
+2020-03-13 18:44:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=160>
+{'casts': ['马克·沃尔伯格', '斯坦利·图齐', '凯尔希·格兰莫', '妮可拉·佩尔茨', '杰克·莱诺'],
+ 'directors': ['迈克尔·贝'],
+ 'rate': '6.6',
+ 'title': '变形金刚4：绝迹重生'}
+2020-03-13 18:44:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=160>
+{'casts': ['成龙', '李治廷', '张艺兴', '索努·苏德', '母其弥雅'],
+ 'directors': ['唐季礼'],
+ 'rate': '5.0',
+ 'title': '功夫瑜伽'}
+2020-03-13 18:44:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=160>
+{'casts': ['黄晓明', '杨幂', '佟大为', '杨颖', '谢依霖'],
+ 'directors': ['杨文军', '黄斌'],
+ 'rate': '3.7',
+ 'title': '何以笙箫默'}
+2020-03-13 18:44:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=160>
+{'casts': ['梁朝伟', '金城武', '陈奕迅', '杨颖', '张榕容'],
+ 'directors': ['张嘉佳'],
+ 'rate': '4.1',
+ 'title': '摆渡人'}
+2020-03-13 18:44:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=160>
+{'casts': ['井柏然', '杨颖', '李沁', '王思聪', '刘循子墨'],
+ 'directors': ['赵天宇'],
+ 'rate': '4.8',
+ 'title': '微微一笑很倾城'}
+2020-03-13 18:44:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=160>
+{'casts': ['刘德华', '刘烨', '吴若甫', '王千源', '林雪'],
+ 'directors': ['丁晟'],
+ 'rate': '7.7',
+ 'title': '解救吾先生'}
+2020-03-13 18:44:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=160>
+{'casts': ['古天乐', '郑嘉颖', '林峯', '林家栋', '周秀娜'],
+ 'directors': ['林德禄 '],
+ 'rate': '6.0',
+ 'title': '反贪风暴4'}
+2020-03-13 18:44:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=160>
+{'casts': ['迪丽热巴', '张云龙', '高伟光', '金晨', '马薇薇'],
+ 'directors': ['李海蜀', '黄彦威'],
+ 'rate': '4.8',
+ 'title': '傲娇与偏见'}
+2020-03-13 18:44:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=160>
+{'casts': ['乔·阿尔文', '加内特·赫德兰', '克里斯汀·斯图尔特', '范·迪塞尔', '李淳'],
+ 'directors': ['李安'],
+ 'rate': '8.4',
+ 'title': '比利·林恩的中场战事'}
+2020-03-13 18:44:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=160>
+{'casts': ['小连杀', '图特哈蒙', '金士杰', '幽舞越山', '李佳怡'],
+ 'directors': ['不思凡'],
+ 'rate': '7.8',
+ 'title': '大护法'}
+2020-03-13 18:44:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=160>
+{'casts': ['甄子丹', '迈克·泰森', '张晋', '熊黛林', '谭耀文'],
+ 'directors': ['叶伟信'],
+ 'rate': '6.5',
+ 'title': '叶问3'}
+2020-03-13 18:44:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=160>
+{'casts': ['马特·达蒙', '景甜', '佩德罗·帕斯卡', '刘德华', '威廉·达福'],
+ 'directors': ['张艺谋'],
+ 'rate': '4.9',
+ 'title': '长城'}
+2020-03-13 18:44:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=160>
+{'casts': ['周润发', '张家辉', '刘嘉玲', '余文乐', '王诗龄'],
+ 'directors': ['王晶', '张敏'],
+ 'rate': '5.5',
+ 'title': '澳门风云2'}
+2020-03-13 18:44:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=160>
+{'casts': ['何冰', '韩童生', '钱波', '赵龙豪', '米铁增'],
+ 'directors': ['徐昂'],
+ 'rate': '8.4',
+ 'title': '十二公民'}
+2020-03-13 18:44:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=160>
+{'casts': ['吴亦凡', '林更新', '姚晨', '林允', '包贝尔'],
+ 'directors': ['徐克'],
+ 'rate': '5.5',
+ 'title': '西游伏妖篇'}
+2020-03-13 18:44:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=180> (referer: https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=160)
+2020-03-13 18:44:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=180>
+{'casts': ['张家辉', '古天乐', '吴镇宇', '佘诗曼', '许绍雄'],
+ 'directors': ['文伟鸿'],
+ 'rate': '6.8',
+ 'title': '使徒行者'}
+2020-03-13 18:44:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=180>
+{'casts': ['井柏然', '宋佳', '马思纯', '秦昊', '陈妍希'],
+ 'directors': ['娄烨'],
+ 'rate': '7.2',
+ 'title': '风中有朵雨做的云'}
+2020-03-13 18:44:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=180>
+{'casts': ['吴亦凡', '韩庚', '卢杉', '包贝尔', '周元'],
+ 'directors': ['赵真奎'],
+ 'rate': '4.8',
+ 'title': '夏有乔木 雅望天堂'}
+2020-03-13 18:44:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=180>
+{'casts': ['葛优', '白百何', '李小璐', '郑恺', '范伟'],
+ 'directors': ['冯小刚'],
+ 'rate': '5.7',
+ 'title': '私人订制'}
+2020-03-13 18:44:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=180>
+{'casts': ['周润发', '谢霆锋', '景甜', '高虎', '吴辰君'],
+ 'directors': ['王晶', '钟少雄'],
+ 'rate': '5.7',
+ 'title': '澳门风云'}
+2020-03-13 18:44:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=180>
+{'casts': ['白百何', '张子枫', '魏大勋', '许娣', '李建义'],
+ 'directors': ['彭宥纶'],
+ 'rate': '5.7',
+ 'title': '亲爱的新年好'}
+2020-03-13 18:44:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=180>
+{'casts': ['约翰·博耶加', '斯科特·伊斯特伍德', '卡莉·史派妮', '景甜', '查理·戴'],
+ 'directors': ['斯蒂文·S·迪奈特'],
+ 'rate': '5.5',
+ 'title': '环太平洋：雷霆再起'}
+2020-03-13 18:44:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=180>
+{'casts': ['汤姆·克鲁斯', '杰瑞米·雷纳', '西蒙·佩吉', '丽贝卡·弗格森', '文·瑞姆斯'],
+ 'directors': ['克里斯托弗·麦奎里'],
+ 'rate': '7.8',
+ 'title': '碟中谍5：神秘国度'}
+2020-03-13 18:44:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=180>
+{'casts': ['汤姆·希德勒斯顿', '布丽·拉尔森', '塞缪尔·杰克逊', '约翰·古德曼', '景甜'],
+ 'directors': ['乔丹·沃格特-罗伯茨'],
+ 'rate': '6.5',
+ 'title': '金刚：骷髅岛'}
+2020-03-13 18:44:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=180>
+{'casts': ['周迅', '秦昊', '杜江', '张子枫', '邓恩熙'],
+ 'directors': ['岩井俊二'],
+ 'rate': '6.7',
+ 'title': '你好，之华'}
+2020-03-13 18:44:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=180>
+{'casts': ['白客', '杨子姗', '陈柏霖', '马天宇', '刘循子墨'],
+ 'directors': ['易小星'],
+ 'rate': '5.6',
+ 'title': '万万没想到'}
+2020-03-13 18:44:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=180>
+{'casts': ['梁朝伟', '刘德华', '黎明', '陈道明', '陈慧琳'],
+ 'directors': ['刘伟强', '麦兆辉'],
+ 'rate': '8.0',
+ 'title': '无间道3：终极无间'}
+2020-03-13 18:44:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=180>
+{'casts': ['徐峥', '王丽坤', '王砚辉', '段博文', '任达华'],
+ 'directors': ['任鹏远'],
+ 'rate': '5.7',
+ 'title': '幕后玩家'}
+2020-03-13 18:44:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=180>
+{'casts': ['郭富城', '冯绍峰', '赵丽颖', '小沈阳', '罗仲谦'],
+ 'directors': ['郑保瑞'],
+ 'rate': '4.4',
+ 'title': '西游记女儿国'}
+2020-03-13 18:44:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=180>
+{'casts': ['姚晨', '袁弘', '李九霄', '梁冠华', '杨新鸣'],
+ 'directors': ['滕丛丛'],
+ 'rate': '7.1',
+ 'title': '送我上青云'}
+2020-03-13 18:44:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=180>
+{'casts': ['董子健', '秦海璐', '咏梅', '焦刚', '安悦溪'],
+ 'directors': ['刘杰'],
+ 'rate': '7.4',
+ 'title': '青春派'}
+2020-03-13 18:44:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=180>
+{'casts': ['杨幂', '李易峰', '陈数', '王耀庆', '张云龙'],
+ 'directors': ['陈国辉', '夏永康'],
+ 'rate': '4.4',
+ 'title': '怦然星动'}
+2020-03-13 18:44:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=180>
+{'casts': ['苏尚卿', '王一博', '段艺璇', '马斑马', '林强'],
+ 'directors': ['奚超'],
+ 'rate': '6.1',
+ 'title': '昨日青空'}
+2020-03-13 18:44:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=180>
+{'casts': ['余文乐', '杨千嬅', '蒋梦婕', '曾国祥', '秦沛'],
+ 'directors': ['彭浩翔'],
+ 'rate': '7.1',
+ 'title': '春娇救志明'}
+2020-03-13 18:44:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=180>
+{'casts': ['于毅', '何花', '王瑞昌', '岳丽娜', '倪虹洁'],
+ 'directors': ['巨兴茂'],
+ 'rate': '7.1',
+ 'title': '灵魂摆渡·黄泉'}
+2020-03-13 18:44:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=200> (referer: https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=180)
+2020-03-13 18:44:17 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=200> (referer: https://movie.douban.com/j/new_search_subjects?tags=%E7%94%B5%E5%BD%B1&countries=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86&start=180)
+Traceback (most recent call last):
+  File "c:\users\administrator\appdata\local\programs\python\python37-32\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\users\administrator\appdata\local\programs\python\python37-32\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\users\administrator\appdata\local\programs\python\python37-32\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\users\administrator\appdata\local\programs\python\python37-32\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\users\administrator\appdata\local\programs\python\python37-32\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\users\administrator\appdata\local\programs\python\python37-32\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\users\administrator\appdata\local\programs\python\python37-32\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\users\administrator\appdata\local\programs\python\python37-32\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "c:\users\administrator\appdata\local\programs\python\python37-32\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\users\admini~1\appdata\local\temp\douban-1584096177-l1g_v66w.egg\douban\spiders\movies.py", line 23, in parse
+    if len(movie_dict['data']) == 0:
+KeyError: 'data'
+2020-03-13 18:44:17 [scrapy.core.engine] INFO: Closing spider (finished)
+2020-03-13 18:44:17 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 5941,
+ 'downloader/request_count': 11,
+ 'downloader/request_method_count/GET': 11,
+ 'downloader/response_bytes': 25992,
+ 'downloader/response_count': 11,
+ 'downloader/response_status_count/200': 11,
+ 'elapsed_time_seconds': 6.652976,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2020, 3, 13, 10, 44, 17, 835734),
+ 'item_scraped_count': 200,
+ 'log_count/DEBUG': 211,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 10,
+ 'request_depth_max': 10,
+ 'response_received_count': 11,
+ 'scheduler/dequeued': 11,
+ 'scheduler/dequeued/memory': 11,
+ 'scheduler/enqueued': 11,
+ 'scheduler/enqueued/memory': 11,
+ 'spider_exceptions/KeyError': 1,
+ 'start_time': datetime.datetime(2020, 3, 13, 10, 44, 11, 182758)}
+2020-03-13 18:44:17 [scrapy.core.engine] INFO: Spider closed (finished)

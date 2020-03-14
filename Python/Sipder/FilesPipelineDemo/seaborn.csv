@@ -1,0 +1,82 @@
+file_urls,files
+http://seaborn.pydata.org/_downloads/385ca78e5ad6f05b051a2df01c511699/heatmap_annotation.py,
+http://seaborn.pydata.org/_downloads/7aded80e0b884daa577086d5ff8ab593/grouped_violinplots.py,
+http://seaborn.pydata.org/_downloads/43fa6dccdb3dfebfc053072dbedc4f22/grouped_boxplot.py,
+http://seaborn.pydata.org/_downloads/400d87bad2dcf40e747f35950d905680/grouped_barplot.py,
+http://seaborn.pydata.org/_downloads/27f05d5e47d80a0121b24e90cd73311a/faceted_lineplot.py,
+http://seaborn.pydata.org/_downloads/898651ea855da2bb6155bb00f28bcc37/faceted_histogram.py,
+http://seaborn.pydata.org/_downloads/902100c2dff014c326e4798ddef72555/facet_projections.py,
+http://seaborn.pydata.org/_downloads/db71e1acc4c50f16bf22d95c7e0bcb38/errorband_lineplots.py,
+http://seaborn.pydata.org/_downloads/295bc5c59642a9f4c1ac9cd8768a8484/distplot_options.py,
+http://seaborn.pydata.org/_downloads/4b7230530d330da7003e169ad58af0c4/different_scatter_variables.py,
+http://seaborn.pydata.org/_downloads/fbcc3b7c2287dea0a6ea16b50d461fd0/cubehelix_palette.py,
+http://seaborn.pydata.org/_downloads/251862e2e82f2353b023c9986b27f32c/color_palettes.py,
+http://seaborn.pydata.org/_downloads/1c58be1b1d4868a221d07abaa7f27809/anscombes_quartet.py,
+http://seaborn.pydata.org/_downloads/d0155c6cf8742977d76c1dbab1e399bf/regression_marginals.py,
+http://seaborn.pydata.org/_downloads/9e02b58652871fc198518305481f8d6f/pointplot_anova.py,
+http://seaborn.pydata.org/_downloads/362e124444c4307dce341bf29e2c26f4/pairgrid_dotplot.py,
+http://seaborn.pydata.org/_downloads/e4a66d68ce15d9e1d72d80694f4e1520/wide_form_violinplot.py,
+http://seaborn.pydata.org/_downloads/f2e985a19d9c30950707354473ca34a5/wide_data_lineplot.py,
+http://seaborn.pydata.org/_downloads/59a127c42075dbb0626a5abb50a76566/structured_heatmap.py,
+http://seaborn.pydata.org/_downloads/0c30958a2c2b16fad4a0d8a8ca728a38/simple_violinplots.py,
+http://seaborn.pydata.org/_downloads/4ba3119d3b63738ea3e5f885e96055de/scatterplot_sizes.py,
+http://seaborn.pydata.org/_downloads/3a38612fb7d57c5d0a228e6f815f520d/scatterplot_matrix.py,
+http://seaborn.pydata.org/_downloads/10d4cc93247419d7da4a60f2d09c57df/scatterplot_categorical.py,
+http://seaborn.pydata.org/_downloads/7fe85fbff1ef0b43497d0eb2c0bde403/scatter_bubbles.py,
+http://seaborn.pydata.org/_downloads/fa823cfb47fe31b4b820368520400211/residplot.py,
+http://seaborn.pydata.org/_downloads/d1e6336a9dfc814274133d5c88383c28/paired_pointplots.py,
+http://seaborn.pydata.org/_downloads/1e2da9416f81ec7c1d4812971b9761a8/pair_grid_with_kde.py,
+http://seaborn.pydata.org/_downloads/05cb73065c3e423750ffda0fcecdcb95/multiple_regression.py,
+http://seaborn.pydata.org/_downloads/ca995731469a6af11f094772c9f8c0cf/multiple_joint_kde.py,
+http://seaborn.pydata.org/_downloads/bf686878f8bbb5e4c93d87881abd660b/marginal_ticks.py,
+http://seaborn.pydata.org/_downloads/e2213de24f51530bb0bf64b0540a1bce/many_pairwise_correlations.py,
+http://seaborn.pydata.org/_downloads/933b5748ef1da4256893069963d1ee8a/many_facets.py,
+http://seaborn.pydata.org/_downloads/3f2152cc2d762c1b136d510cb24be109/logistic_regression.py,
+http://seaborn.pydata.org/_downloads/36b01b8bcb766673cfcf397e2a979ede/large_distributions.py,
+http://seaborn.pydata.org/_downloads/929f2d9bd9f7d6ea3e2b85f193d6d881/kde_ridgeplot.py,
+http://seaborn.pydata.org/_downloads/4cb790348c51263622214c22db511a64/joint_kde.py,
+http://seaborn.pydata.org/_downloads/5f4575bd8e90d18ce9b8bc6b14c3419f/jitter_stripplot.py,
+http://seaborn.pydata.org/_downloads/8ffb0d3402c3b7690c7212119e0c9ac8/horizontal_boxplot.py,
+http://seaborn.pydata.org/_downloads/75c6fa0e47406daf001aef70e336ca29/horizontal_barplot.py,
+http://seaborn.pydata.org/_downloads/3ca38da4d9723e142d4a662b118a87f1/hexbin_marginals.py,
+file_urls,files
+http://seaborn.pydata.org/_downloads/7aded80e0b884daa577086d5ff8ab593/grouped_violinplots.py,"[{'url': 'http://seaborn.pydata.org/_downloads/7aded80e0b884daa577086d5ff8ab593/grouped_violinplots.py', 'path': 'grouped_violinplots.py', 'checksum': '0410120aef4459ff22a96dc7af179d6c'}]"
+http://seaborn.pydata.org/_downloads/43fa6dccdb3dfebfc053072dbedc4f22/grouped_boxplot.py,"[{'url': 'http://seaborn.pydata.org/_downloads/43fa6dccdb3dfebfc053072dbedc4f22/grouped_boxplot.py', 'path': 'grouped_boxplot.py', 'checksum': '26df146e7110e211115027a95c7af535'}]"
+http://seaborn.pydata.org/_downloads/400d87bad2dcf40e747f35950d905680/grouped_barplot.py,"[{'url': 'http://seaborn.pydata.org/_downloads/400d87bad2dcf40e747f35950d905680/grouped_barplot.py', 'path': 'grouped_barplot.py', 'checksum': 'ea3cd45be3ef65256ac933136ab92131'}]"
+http://seaborn.pydata.org/_downloads/27f05d5e47d80a0121b24e90cd73311a/faceted_lineplot.py,"[{'url': 'http://seaborn.pydata.org/_downloads/27f05d5e47d80a0121b24e90cd73311a/faceted_lineplot.py', 'path': 'faceted_lineplot.py', 'checksum': '407af5131864d4c3789d20a5418c7e29'}]"
+http://seaborn.pydata.org/_downloads/898651ea855da2bb6155bb00f28bcc37/faceted_histogram.py,"[{'url': 'http://seaborn.pydata.org/_downloads/898651ea855da2bb6155bb00f28bcc37/faceted_histogram.py', 'path': 'faceted_histogram.py', 'checksum': 'b32b1e28397a6bbb4e7a8685c8c867ff'}]"
+http://seaborn.pydata.org/_downloads/902100c2dff014c326e4798ddef72555/facet_projections.py,"[{'url': 'http://seaborn.pydata.org/_downloads/902100c2dff014c326e4798ddef72555/facet_projections.py', 'path': 'facet_projections.py', 'checksum': 'c6c77895d2d051871a9986c5c01db8d8'}]"
+http://seaborn.pydata.org/_downloads/db71e1acc4c50f16bf22d95c7e0bcb38/errorband_lineplots.py,"[{'url': 'http://seaborn.pydata.org/_downloads/db71e1acc4c50f16bf22d95c7e0bcb38/errorband_lineplots.py', 'path': 'errorband_lineplots.py', 'checksum': 'c4cd71307399d707f68ee7b66b0a48cc'}]"
+http://seaborn.pydata.org/_downloads/295bc5c59642a9f4c1ac9cd8768a8484/distplot_options.py,"[{'url': 'http://seaborn.pydata.org/_downloads/295bc5c59642a9f4c1ac9cd8768a8484/distplot_options.py', 'path': 'distplot_options.py', 'checksum': '382b7156eaf150687a15aa1f0a569ea7'}]"
+http://seaborn.pydata.org/_downloads/4b7230530d330da7003e169ad58af0c4/different_scatter_variables.py,"[{'url': 'http://seaborn.pydata.org/_downloads/4b7230530d330da7003e169ad58af0c4/different_scatter_variables.py', 'path': 'different_scatter_variables.py', 'checksum': '57fd0dfcff69ee9ff04196708747ca83'}]"
+http://seaborn.pydata.org/_downloads/fbcc3b7c2287dea0a6ea16b50d461fd0/cubehelix_palette.py,"[{'url': 'http://seaborn.pydata.org/_downloads/fbcc3b7c2287dea0a6ea16b50d461fd0/cubehelix_palette.py', 'path': 'cubehelix_palette.py', 'checksum': '5d00b62e6fbee666d7ff5db375c22234'}]"
+http://seaborn.pydata.org/_downloads/251862e2e82f2353b023c9986b27f32c/color_palettes.py,"[{'url': 'http://seaborn.pydata.org/_downloads/251862e2e82f2353b023c9986b27f32c/color_palettes.py', 'path': 'color_palettes.py', 'checksum': '2a84ec6e0b9ac39f633ff73a15ba6f29'}]"
+http://seaborn.pydata.org/_downloads/1c58be1b1d4868a221d07abaa7f27809/anscombes_quartet.py,"[{'url': 'http://seaborn.pydata.org/_downloads/1c58be1b1d4868a221d07abaa7f27809/anscombes_quartet.py', 'path': 'anscombes_quartet.py', 'checksum': '94347ea3a601f06fa48c4e5cf71963b1'}]"
+http://seaborn.pydata.org/_downloads/4ba3119d3b63738ea3e5f885e96055de/scatterplot_sizes.py,"[{'url': 'http://seaborn.pydata.org/_downloads/4ba3119d3b63738ea3e5f885e96055de/scatterplot_sizes.py', 'path': 'scatterplot_sizes.py', 'checksum': '49c1c4e2a842f942e65e2f817493b01d'}]"
+http://seaborn.pydata.org/_downloads/3a38612fb7d57c5d0a228e6f815f520d/scatterplot_matrix.py,"[{'url': 'http://seaborn.pydata.org/_downloads/3a38612fb7d57c5d0a228e6f815f520d/scatterplot_matrix.py', 'path': 'scatterplot_matrix.py', 'checksum': '8a0eeac69526e1d3d54df974e51d09db'}]"
+http://seaborn.pydata.org/_downloads/10d4cc93247419d7da4a60f2d09c57df/scatterplot_categorical.py,"[{'url': 'http://seaborn.pydata.org/_downloads/10d4cc93247419d7da4a60f2d09c57df/scatterplot_categorical.py', 'path': 'scatterplot_categorical.py', 'checksum': '31b0f93d514cf368e3673c6a210368e7'}]"
+http://seaborn.pydata.org/_downloads/7fe85fbff1ef0b43497d0eb2c0bde403/scatter_bubbles.py,"[{'url': 'http://seaborn.pydata.org/_downloads/7fe85fbff1ef0b43497d0eb2c0bde403/scatter_bubbles.py', 'path': 'scatter_bubbles.py', 'checksum': '7cf0f02517468dbfd11c0c804f77d973'}]"
+http://seaborn.pydata.org/_downloads/e4a66d68ce15d9e1d72d80694f4e1520/wide_form_violinplot.py,"[{'url': 'http://seaborn.pydata.org/_downloads/e4a66d68ce15d9e1d72d80694f4e1520/wide_form_violinplot.py', 'path': 'wide_form_violinplot.py', 'checksum': '9356a22caa934a32481a7a60b7a275e3'}]"
+http://seaborn.pydata.org/_downloads/f2e985a19d9c30950707354473ca34a5/wide_data_lineplot.py,"[{'url': 'http://seaborn.pydata.org/_downloads/f2e985a19d9c30950707354473ca34a5/wide_data_lineplot.py', 'path': 'wide_data_lineplot.py', 'checksum': '25993865df1905a72961444f886e9e85'}]"
+http://seaborn.pydata.org/_downloads/59a127c42075dbb0626a5abb50a76566/structured_heatmap.py,"[{'url': 'http://seaborn.pydata.org/_downloads/59a127c42075dbb0626a5abb50a76566/structured_heatmap.py', 'path': 'structured_heatmap.py', 'checksum': 'a37f3376299c918e10669a7f806eaf62'}]"
+http://seaborn.pydata.org/_downloads/0c30958a2c2b16fad4a0d8a8ca728a38/simple_violinplots.py,"[{'url': 'http://seaborn.pydata.org/_downloads/0c30958a2c2b16fad4a0d8a8ca728a38/simple_violinplots.py', 'path': 'simple_violinplots.py', 'checksum': 'bf4bf5ac2af4bb5df0949ae0f4005d33'}]"
+http://seaborn.pydata.org/_downloads/fa823cfb47fe31b4b820368520400211/residplot.py,"[{'url': 'http://seaborn.pydata.org/_downloads/fa823cfb47fe31b4b820368520400211/residplot.py', 'path': 'residplot.py', 'checksum': '4d0018491853998c50454f81161b2536'}]"
+http://seaborn.pydata.org/_downloads/d0155c6cf8742977d76c1dbab1e399bf/regression_marginals.py,"[{'url': 'http://seaborn.pydata.org/_downloads/d0155c6cf8742977d76c1dbab1e399bf/regression_marginals.py', 'path': 'regression_marginals.py', 'checksum': '2cecf150161a05ffa5732a6d716dfbdc'}]"
+http://seaborn.pydata.org/_downloads/9e02b58652871fc198518305481f8d6f/pointplot_anova.py,"[{'url': 'http://seaborn.pydata.org/_downloads/9e02b58652871fc198518305481f8d6f/pointplot_anova.py', 'path': 'pointplot_anova.py', 'checksum': 'ac0ea2e5a1daac41d26209c8d72c60eb'}]"
+http://seaborn.pydata.org/_downloads/362e124444c4307dce341bf29e2c26f4/pairgrid_dotplot.py,"[{'url': 'http://seaborn.pydata.org/_downloads/362e124444c4307dce341bf29e2c26f4/pairgrid_dotplot.py', 'path': 'pairgrid_dotplot.py', 'checksum': '639ad9ef8e95f943ed50b3805e2c710d'}]"
+http://seaborn.pydata.org/_downloads/d1e6336a9dfc814274133d5c88383c28/paired_pointplots.py,"[{'url': 'http://seaborn.pydata.org/_downloads/d1e6336a9dfc814274133d5c88383c28/paired_pointplots.py', 'path': 'paired_pointplots.py', 'checksum': '8761c7aed7cba7bab35bcf59d5a334f4'}]"
+http://seaborn.pydata.org/_downloads/1e2da9416f81ec7c1d4812971b9761a8/pair_grid_with_kde.py,"[{'url': 'http://seaborn.pydata.org/_downloads/1e2da9416f81ec7c1d4812971b9761a8/pair_grid_with_kde.py', 'path': 'pair_grid_with_kde.py', 'checksum': '2e084c8c12da8ac34d53625322936577'}]"
+http://seaborn.pydata.org/_downloads/05cb73065c3e423750ffda0fcecdcb95/multiple_regression.py,"[{'url': 'http://seaborn.pydata.org/_downloads/05cb73065c3e423750ffda0fcecdcb95/multiple_regression.py', 'path': 'multiple_regression.py', 'checksum': '7dea127afaf73078b08aa2f4d196a394'}]"
+http://seaborn.pydata.org/_downloads/ca995731469a6af11f094772c9f8c0cf/multiple_joint_kde.py,"[{'url': 'http://seaborn.pydata.org/_downloads/ca995731469a6af11f094772c9f8c0cf/multiple_joint_kde.py', 'path': 'multiple_joint_kde.py', 'checksum': '2e22af8438f3bb659f629671b254c34a'}]"
+http://seaborn.pydata.org/_downloads/bf686878f8bbb5e4c93d87881abd660b/marginal_ticks.py,"[{'url': 'http://seaborn.pydata.org/_downloads/bf686878f8bbb5e4c93d87881abd660b/marginal_ticks.py', 'path': 'marginal_ticks.py', 'checksum': 'e5bee0230bc060dd52324bc7b6f634bb'}]"
+http://seaborn.pydata.org/_downloads/e2213de24f51530bb0bf64b0540a1bce/many_pairwise_correlations.py,"[{'url': 'http://seaborn.pydata.org/_downloads/e2213de24f51530bb0bf64b0540a1bce/many_pairwise_correlations.py', 'path': 'many_pairwise_correlations.py', 'checksum': '361295643fb4865b4950078bebeb18e8'}]"
+http://seaborn.pydata.org/_downloads/933b5748ef1da4256893069963d1ee8a/many_facets.py,"[{'url': 'http://seaborn.pydata.org/_downloads/933b5748ef1da4256893069963d1ee8a/many_facets.py', 'path': 'many_facets.py', 'checksum': 'd056fcdc3b2fb6519b370fccfb1fc071'}]"
+http://seaborn.pydata.org/_downloads/3f2152cc2d762c1b136d510cb24be109/logistic_regression.py,"[{'url': 'http://seaborn.pydata.org/_downloads/3f2152cc2d762c1b136d510cb24be109/logistic_regression.py', 'path': 'logistic_regression.py', 'checksum': '5a1200efe06fac0ae9304aed725c5da9'}]"
+http://seaborn.pydata.org/_downloads/36b01b8bcb766673cfcf397e2a979ede/large_distributions.py,"[{'url': 'http://seaborn.pydata.org/_downloads/36b01b8bcb766673cfcf397e2a979ede/large_distributions.py', 'path': 'large_distributions.py', 'checksum': 'e49a0b8dc939a05e6d4ee73257b5ae3d'}]"
+http://seaborn.pydata.org/_downloads/929f2d9bd9f7d6ea3e2b85f193d6d881/kde_ridgeplot.py,"[{'url': 'http://seaborn.pydata.org/_downloads/929f2d9bd9f7d6ea3e2b85f193d6d881/kde_ridgeplot.py', 'path': 'kde_ridgeplot.py', 'checksum': '956b1c3b14d1ded2365448e2db7972d6'}]"
+http://seaborn.pydata.org/_downloads/4cb790348c51263622214c22db511a64/joint_kde.py,"[{'url': 'http://seaborn.pydata.org/_downloads/4cb790348c51263622214c22db511a64/joint_kde.py', 'path': 'joint_kde.py', 'checksum': 'a6f1e297aae47701eb540c66b246a6ff'}]"
+http://seaborn.pydata.org/_downloads/5f4575bd8e90d18ce9b8bc6b14c3419f/jitter_stripplot.py,"[{'url': 'http://seaborn.pydata.org/_downloads/5f4575bd8e90d18ce9b8bc6b14c3419f/jitter_stripplot.py', 'path': 'jitter_stripplot.py', 'checksum': 'dfe13fedef341d2bea786cfc6bc24b79'}]"
+http://seaborn.pydata.org/_downloads/8ffb0d3402c3b7690c7212119e0c9ac8/horizontal_boxplot.py,"[{'url': 'http://seaborn.pydata.org/_downloads/8ffb0d3402c3b7690c7212119e0c9ac8/horizontal_boxplot.py', 'path': 'horizontal_boxplot.py', 'checksum': '5ea1658b3811cf4c4784c321e875a679'}]"
+http://seaborn.pydata.org/_downloads/75c6fa0e47406daf001aef70e336ca29/horizontal_barplot.py,"[{'url': 'http://seaborn.pydata.org/_downloads/75c6fa0e47406daf001aef70e336ca29/horizontal_barplot.py', 'path': 'horizontal_barplot.py', 'checksum': '5bddc939484a1bd43ea01a593971cbee'}]"
+http://seaborn.pydata.org/_downloads/3ca38da4d9723e142d4a662b118a87f1/hexbin_marginals.py,"[{'url': 'http://seaborn.pydata.org/_downloads/3ca38da4d9723e142d4a662b118a87f1/hexbin_marginals.py', 'path': 'hexbin_marginals.py', 'checksum': '4b6b02dd5c5596343fd82f194d3bfb7f'}]"
+http://seaborn.pydata.org/_downloads/385ca78e5ad6f05b051a2df01c511699/heatmap_annotation.py,"[{'url': 'http://seaborn.pydata.org/_downloads/385ca78e5ad6f05b051a2df01c511699/heatmap_annotation.py', 'path': 'heatmap_annotation.py', 'checksum': 'f4f8142f19852067f8f1518b52068151'}]"

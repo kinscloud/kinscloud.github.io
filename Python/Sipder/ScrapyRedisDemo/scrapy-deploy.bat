@@ -1,0 +1,1 @@
+"python.exe" "C:\Users\Administrator\AppData\Local\Programs\Python\Python37-32\Scripts\scrapyd-deploy" %*

@@ -1,0 +1,13 @@
+setup.py
+ScrapyRedisDemo/__init__.py
+ScrapyRedisDemo/items.py
+ScrapyRedisDemo/middlewares.py
+ScrapyRedisDemo/pipelines.py
+ScrapyRedisDemo/settings.py
+ScrapyRedisDemo/spiders/__init__.py
+ScrapyRedisDemo/spiders/home.py
+project.egg-info/PKG-INFO
+project.egg-info/SOURCES.txt
+project.egg-info/dependency_links.txt
+project.egg-info/entry_points.txt
+project.egg-info/top_level.txt

@@ -1,0 +1,2 @@
+INFO - 2020-03-13 18:39:53,855 - process: 5844 - scheduler.py - gerapy.server.core.scheduler - 102 - scheduler - successfully synced task with jobs
+INFO - 2020-03-13 18:42:41,755 - process: 5844 - build.py - gerapy.server.core.build - 24 - build - successfully build project douban to egg file C:\gerapy\gerapy\projects\douban\douban-1.0-py3.7.egg
