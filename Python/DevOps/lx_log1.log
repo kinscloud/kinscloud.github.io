@@ -1,0 +1,11 @@
+ 2020-03-17 10:03:43 LoggingDemo.py [line:8] DEBUG debug message
+ 2020-03-17 10:03:43 LoggingDemo.py [line:9] INFO info message
+ 2020-03-17 10:03:43 LoggingDemo.py [line:10] WARNING warning message
+ 2020-03-17 10:03:43 LoggingDemo.py [line:11] ERROR error message
+ 2020-03-17 10:03:43 LoggingDemo.py [line:12] CRITICAL critical message
+2020-03-17 10:54:08,240 LoggingDemo.py [line:32] WARNING warning message
+2020-03-17 10:54:08,241 LoggingDemo.py [line:33] ERROR error message
+2020-03-17 10:54:08,242 LoggingDemo.py [line:34] CRITICAL critical message
+2020-03-17 10:55:20,248 LoggingDemo.py [line:32] WARNING warning message
+2020-03-17 10:55:20,251 LoggingDemo.py [line:33] ERROR error message
+2020-03-17 10:55:20,266 LoggingDemo.py [line:34] CRITICAL critical message
