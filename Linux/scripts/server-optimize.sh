@@ -42,7 +42,7 @@ service iptables stop
 
 echo "关闭 firewalld "
 systemctl stop firewalld
-systemctl disabled firewalld
+systemctl disable firewalld
 
 #更新yum源
 #yum -y install wget
